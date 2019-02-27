@@ -3,7 +3,7 @@ let list = document.querySelector('ul');
 let paragraph = document.querySelector('p');
 let secondButton = document.querySelector('button:nth-of-type(2)');
 
-let listVisible = false;
+let listVisible = true;
 let paragraphIsShown = true;
 
 button.addEventListener('click', function() {
